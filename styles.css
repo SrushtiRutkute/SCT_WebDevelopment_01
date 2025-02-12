@@ -72,7 +72,6 @@ header, section {
 }
 
 header {
-    background: url('https://source.unsplash.com/1600x900/?technology') no-repeat center center/cover;
     font-size: 30px;
 }
 
@@ -81,17 +80,17 @@ section {
 }
 
 #home {
-    background-color: #d8b6ff;
+    background-color: #c3b1e1;
 }
 
 #about {
-    background-color: #e0e0ff;
+    background-color: #b0e57c;
 }
 
 #services {
-    background-color: #d0f0c0;
+    background-color: #ffb6c1;
 }
 
 #contact {
-    background-color: #ffccdc;
+    background-color: #aec6cf;
 }
