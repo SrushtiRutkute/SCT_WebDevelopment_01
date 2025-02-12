@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #f4f4f4;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+    padding: 15px 0;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 12px 18px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.navbar ul li a.active {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: darkorange;
+}
+
+.scrolled {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 10px 0;
+}
+
+header, section {
+    height: 100vh;
+    text-align: center;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+header {
+    background: url('https://source.unsplash.com/1600x900/?technology') no-repeat center center/cover;
+    font-size: 30px;
+}
+
+section {
+    width: 100%;
+}
+
+#home {
+    background-color: #d8b6ff;
+}
+
+#about {
+    background-color: #e0e0ff;
+}
+
+#services {
+    background-color: #d0f0c0;
+}
+
+#contact {
+    background-color: #ffccdc;
+}
