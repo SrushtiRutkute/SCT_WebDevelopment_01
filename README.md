@@ -12,4 +12,4 @@ This is a fully responsive landing page with an interactive navigation menu that
 ✅ Smooth Scrolling - Scrolls smoothly between sections.  
 
 
-## 📂 Project Structure
+
